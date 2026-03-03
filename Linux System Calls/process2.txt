@@ -1,0 +1,279 @@
+F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root           1       0  0  80   0 -  5883 -      09:18 ?        00:00:03 /sbin/init splash
+1 S root           2       0  0  80   0 -     0 -      09:18 ?        00:00:00 [kthreadd]
+1 S root           3       2  0  80   0 -     0 -      09:18 ?        00:00:00 [pool_workqueue_release]
+1 I root           4       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-rcu_gp]
+1 I root           5       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-sync_wq]
+1 I root           6       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-kvfree_rcu_reclaim]
+1 I root           7       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-slub_flushwq]
+1 I root           8       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-netns]
+1 I root          10       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/0:0H-events_highpri]
+1 I root          13       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-mm_percpu_wq]
+1 I root          14       2  0  80   0 -     0 -      09:18 ?        00:00:00 [rcu_tasks_kthread]
+1 I root          15       2  0  80   0 -     0 -      09:18 ?        00:00:00 [rcu_tasks_rude_kthread]
+1 I root          16       2  0  80   0 -     0 -      09:18 ?        00:00:00 [rcu_tasks_trace_kthread]
+1 S root          17       2  0  80   0 -     0 -      09:18 ?        00:00:01 [ksoftirqd/0]
+1 I root          18       2  0  80   0 -     0 -      09:18 ?        00:00:01 [rcu_preempt]
+1 S root          19       2  0  80   0 -     0 -      09:18 ?        00:00:00 [rcu_exp_par_gp_kthread_worker/0]
+1 S root          20       2  0  80   0 -     0 -      09:18 ?        00:00:00 [rcu_exp_gp_kthread_worker]
+1 S root          21       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/0]
+1 S root          22       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/0]
+1 S root          23       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/0]
+5 S root          24       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/1]
+1 S root          25       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/1]
+1 S root          26       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/1]
+1 S root          27       2  0  80   0 -     0 -      09:18 ?        00:00:01 [ksoftirqd/1]
+1 I root          29       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/1:0H-events_highpri]
+5 S root          30       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/2]
+1 S root          31       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/2]
+1 S root          32       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/2]
+1 S root          33       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ksoftirqd/2]
+1 I root          35       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/2:0H-events_highpri]
+5 S root          36       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/3]
+1 S root          37       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/3]
+1 S root          38       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/3]
+1 S root          39       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ksoftirqd/3]
+1 I root          40       2  0  80   0 -     0 -      09:18 ?        00:00:03 [kworker/3:0-i915-unordered]
+1 I root          41       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/3:0H-events_highpri]
+5 S root          42       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/4]
+1 S root          43       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/4]
+1 S root          44       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/4]
+1 S root          45       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ksoftirqd/4]
+1 I root          47       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/4:0H-events_highpri]
+5 S root          48       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/5]
+1 S root          49       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/5]
+1 S root          50       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/5]
+1 S root          51       2  0  80   0 -     0 -      09:18 ?        00:00:04 [ksoftirqd/5]
+1 I root          53       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/5:0H-events_highpri]
+5 S root          54       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/6]
+1 S root          55       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/6]
+1 S root          56       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/6]
+1 S root          57       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ksoftirqd/6]
+1 I root          59       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/6:0H-events_highpri]
+5 S root          60       2  0  80   0 -     0 -      09:18 ?        00:00:00 [cpuhp/7]
+1 S root          61       2  0   9   - -     0 -      09:18 ?        00:00:00 [idle_inject/7]
+1 S root          62       2  0 -40   - -     0 -      09:18 ?        00:00:00 [migration/7]
+1 S root          63       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ksoftirqd/7]
+1 I root          65       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/7:0H-events_highpri]
+5 S root          66       2  0  80   0 -     0 -      09:18 ?        00:00:00 [kdevtmpfs]
+1 I root          67       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-inet_frag_wq]
+1 S root          68       2  0  80   0 -     0 -      09:18 ?        00:00:00 [kauditd]
+1 S root          69       2  0  80   0 -     0 -      09:18 ?        00:00:00 [khungtaskd]
+1 S root          70       2  0  80   0 -     0 -      09:18 ?        00:00:00 [oom_reaper]
+1 I root          73       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-writeback]
+1 S root          74       2  0  80   0 -     0 -      09:18 ?        00:00:00 [kcompactd0]
+1 S root          75       2  0  85   5 -     0 -      09:18 ?        00:00:00 [ksmd]
+1 S root          76       2  0  99  19 -     0 -      09:18 ?        00:00:00 [khugepaged]
+1 I root          77       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-kintegrityd]
+1 I root          78       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-kblockd]
+1 I root          79       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-blkcg_punt_bio]
+1 S root          80       2  0   9   - -     0 -      09:18 ?        00:00:08 [irq/9-acpi]
+1 I root          81       2  0  80   0 -     0 -      09:18 ?        00:00:01 [kworker/4:1-i915-unordered]
+1 I root          84       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-tpm_dev_wq]
+1 I root          85       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-ata_sff]
+1 I root          86       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-md]
+1 I root          87       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-md_bitmap]
+1 I root          88       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-edac-poller]
+1 I root          89       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-devfreq_wq]
+1 S root          90       2  0   9   - -     0 -      09:18 ?        00:00:00 [watchdogd]
+1 I root          92       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/0:1H-i915_cleanup]
+1 S root          93       2  0   9   - -     0 -      09:18 ?        00:00:00 [irq/120-dmar0-prq]
+1 S root          95       2  0  80   0 -     0 -      09:18 ?        00:00:00 [kswapd0]
+1 S root          96       2  0  80   0 -     0 -      09:18 ?        00:00:00 [ecryptfs-kthread]
+1 I root          97       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-kthrotld]
+1 S root          98       2  0   9   - -     0 -      09:18 ?        00:00:00 [irq/125-pciehp]
+1 I root          99       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-acpi_thermal_pm]
+1 S root         102       2  0  80   0 -     0 -      09:18 ?        00:00:00 [hwrng]
+1 I root         104       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-mld]
+1 I root         105       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/7:1H-i915_cleanup]
+1 I root         106       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-ipv6_addrconf]
+1 I root         113       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-kstrp]
+1 D root         115       2  0  60 -20 -     0 -      09:18 ?        00:00:05 [kworker/u33:0+i915_flip]
+1 I root         128       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-charger_manager]
+1 I root         153       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/2:1H-kblockd]
+1 I root         156       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/5:1H-kblockd]
+1 I root         174       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/4:1H-i915_cleanup]
+1 I root         183       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/1:1H-kblockd]
+1 I root         186       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/6:1H-i915_cleanup]
+1 I root         194       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/3:1H-i915_cleanup]
+1 S root         213       2  0  80   0 -     0 -      09:18 ?        00:00:00 [scsi_eh_0]
+1 I root         214       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-scsi_tmf_0]
+1 I root         217       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-nvme-wq]
+1 I root         222       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-nvme-reset-wq]
+1 I root         227       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-nvme-delete-wq]
+1 I root         228       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-nvme-auth-wq]
+1 S root         231       2  0   9   - -     0 -      09:18 ?        00:00:11 [irq/51-DELL0818:00]
+1 I root         232       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-USBC000:00-con1]
+1 S root         269       2  0  80   0 -     0 -      09:18 ?        00:00:00 [jbd2/nvme0n1p6-8]
+1 I root         270       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-ext4-rsv-conversion]
+1 I root         279       2  0  80   0 -     0 -      09:18 ?        00:00:02 [kworker/1:2-events]
+4 S root         321       1  0  79  -1 - 16822 -      09:18 ?        00:00:01 /usr/lib/systemd/systemd-journald
+4 S root         362       1  0  80   0 -  7682 -      09:18 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+1 S root         419       2  0  58   - -     0 -      09:18 ?        00:00:00 [psimon]
+1 S root         488       2  0   9   - -     0 -      09:18 ?        00:00:00 [irq/148-mei_me]
+1 I root         499       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-cfg80211]
+1 S root         503       2  0   9   - -     0 -      09:18 ?        00:00:00 [irq/149-iwlwifi]
+1 I root         509       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-cryptd]
+1 I root         557       2  0  60 -20 -     0 -      09:18 ?        00:00:00 [kworker/R-ttm]
+1 S root         563       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nv_queue]
+1 S root         564       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nv_queue]
+1 S root         565       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nv_open_q]
+1 S root         579       2  0   9   - -     0 -      09:18 ?        00:00:00 [card1-crtc0]
+1 S root         581       2  0   9   - -     0 -      09:18 ?        00:00:00 [card1-crtc1]
+1 S root         583       2  0   9   - -     0 -      09:18 ?        00:00:00 [card1-crtc2]
+1 S root         689       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nvidia-modeset/kthread_q]
+1 S root         690       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nvidia-modeset/deferred_close_kthread_q]
+4 S systemd+     716       1  0  80   0 -  4390 -      09:18 ?        00:00:01 /usr/lib/systemd/systemd-oomd
+4 S systemd+     719       1  0  80   0 -  5396 -      09:18 ?        00:00:01 /usr/lib/systemd/systemd-resolved
+4 S systemd+     721       1  0  80   0 - 22762 -      09:18 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+1 S root         722       2  0   9   - -     0 -      09:18 ?        00:00:02 [irq/151-nvidia]
+1 S root         724       2  0  80   0 -     0 -      09:18 ?        00:00:00 [nvidia]
+1 S root         725       2  0  80   0 -     0 -      09:18 ?        00:00:02 [nv_queue]
+1 I root         734       2  0  80   0 -     0 -      09:18 ?        00:00:02 [kworker/0:3-i915-unordered]
+4 S avahi        810       1  0  80   0 -  2168 -      09:18 ?        00:00:00 avahi-daemon: running [uk.local]
+4 S root         811       1  0  80   0 -  3354 -      09:18 ?        00:00:00 /usr/libexec/bluetooth/bluetoothd
+4 S message+     812       1  0  80   0 -  3087 -      09:18 ?        00:00:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S gnome-r+     815       1  0  80   0 - 91369 -      09:18 ?        00:00:00 /usr/libexec/gnome-remote-desktop-daemon --system
+1 S root         817       2  0  80   0 -     0 -      09:18 ?        00:00:00 [UVM global queue]
+1 S root         818       2  0  80   0 -     0 -      09:18 ?        00:00:00 [UVM deferred release queue]
+1 S root         819       2  0  80   0 -     0 -      09:18 ?        00:00:00 [UVM Tools Event Queue]
+4 S polkitd      832       1  0  80   0 - 99899 -      09:18 ?        00:00:01 /usr/lib/polkit-1/polkitd --no-debug
+4 S root         834       1  0  80   0 - 80595 -      09:18 ?        00:00:00 /usr/libexec/power-profiles-daemon
+4 S root         842       1  0  80   0 - 573323 -     09:18 ?        00:00:03 /usr/lib/snapd/snapd
+4 S root         843       1  0  80   0 - 80490 -      09:18 ?        00:00:00 /usr/libexec/accounts-daemon
+4 S root         844       1  0  80   0 -  4523 -      09:18 ?        00:00:00 /usr/sbin/cron -f -P
+4 S root         847       1  0  80   0 - 79650 -      09:18 ?        00:00:00 /usr/libexec/switcheroo-control
+4 S root         863       1  0  80   0 -  4549 -      09:18 ?        00:00:00 /usr/lib/systemd/systemd-logind
+4 S root         869       1  0  80   0 - 108359 -     09:18 ?        00:00:00 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+4 S root         871       1  0  80   0 - 117412 -     09:18 ?        00:00:00 /usr/libexec/udisks2/udisksd
+4 S syslog       907       1  0  80   0 - 55641 -      09:18 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+1 S avahi        909     810  0  80   0 -  2120 -      09:18 ?        00:00:00 avahi-daemon: chroot helper
+4 S root         913       1  0  80   0 - 86332 -      09:18 ?        00:00:01 /usr/sbin/NetworkManager --no-daemon
+5 S nvidia-+     918       1  0  80   0 -  1343 -      09:18 ?        00:00:00 /usr/bin/nvidia-persistenced --user nvidia-persistenced --no-persistence-mode --verbose
+4 S root         919       1  0  80   0 -  4575 -      09:18 ?        00:00:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+4 S root         940       1  0  80   0 - 81429 -      09:18 ?        00:00:02 /usr/libexec/upowerd
+4 S root        1010       1  0  80   0 - 98007 -      09:18 ?        00:00:00 /usr/sbin/ModemManager
+4 S root        1277       1  0  80   0 - 11718 -      09:18 ?        00:00:00 /usr/sbin/cupsd -l
+4 S root        1283       1  0  80   0 - 30232 -      09:18 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+4 S root        1299       1  0  80   0 - 80872 -      09:18 ?        00:00:00 /usr/sbin/gdm3
+1 S root        1313       2  0  58   - -     0 -      09:18 ?        00:00:00 [psimon]
+4 S rtkit       1404       1  0  81   1 -  5735 -      09:18 ?        00:00:00 /usr/libexec/rtkit-daemon
+4 S colord      1613       1  0  80   0 - 82186 -      09:18 ?        00:00:00 /usr/libexec/colord
+4 S cups-br+    1630       1  0  80   0 - 67083 -      09:18 ?        00:00:00 /usr/sbin/cups-browsed
+1 S kernoops    1632       1  0  80   0 -  3186 -      09:18 ?        00:00:00 /usr/sbin/kerneloops --test
+1 S kernoops    1635       1  0  80   0 -  3186 -      09:18 ?        00:00:00 /usr/sbin/kerneloops
+4 S root        1961    1299  0  80   0 - 62812 -      09:19 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+4 S uk          1971       1  0  80   0 -  5331 -      09:19 ?        00:00:01 /usr/lib/systemd/systemd --user
+5 S uk          1976    1971  0  80   0 -  5366 -      09:19 ?        00:00:00 (sd-pam)
+0 S uk          1986    1971  0  69 -11 - 31291 ep_pol 09:19 ?        00:00:00 /usr/bin/pipewire
+0 S uk          1987    1971  0  80   0 - 26601 ep_pol 09:19 ?        00:00:00 /usr/bin/pipewire -c filter-chain.conf
+0 S uk          1990    1971  0  69 -11 - 103905 do_pol 09:19 ?       00:00:01 /usr/bin/wireplumber
+0 S uk          1991    1971  0  69 -11 - 31799 ep_pol 09:19 ?        00:00:00 /usr/bin/pipewire-pulse
+0 S uk          1993    1971  0  80   0 - 81327 do_pol 09:19 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+0 S uk          2010    1971  0  80   0 -  2807 ep_pol 09:19 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+0 S uk          2056    1971  0  80   0 - 154998 do_pol 09:19 ?       00:00:00 /usr/libexec/xdg-document-portal
+0 S uk          2060    1971  0  80   0 - 79494 do_pol 09:19 ?        00:00:00 /usr/libexec/xdg-permission-store
+4 S root        2067    2056  0  80   0 -   676 -      09:19 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+4 S uk          2087    1961  0  80   0 - 61095 do_pol 09:19 tty2     00:00:00 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+4 S uk          2096    2087  3  80   0 - 1803636 -    09:19 tty2     00:01:53 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+0 S uk          2185    2087  0  80   0 - 76726 do_pol 09:19 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+0 S uk          2268    1971  0  80   0 - 95736 do_pol 09:19 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+0 S uk          2275    2268  0  80   0 -  2403 ep_pol 09:19 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_1
+0 S uk          2284    1971  0  80   0 - 40663 do_pol 09:19 ?        00:00:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+0 S uk          2285    1971  0  80   0 - 25054 do_pol 09:19 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+0 S uk          2299    1971  0  80   0 - 80740 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfsd
+0 S uk          2307    1971  0  80   0 - 117094 futex_ 09:19 ?       00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+0 S uk          2310    1971  0  80   0 - 150724 do_pol 09:19 ?       00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+4 S uk          2326    1971  0  80   0 -  9784 do_wai 09:19 ?        00:00:00 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+0 S uk          2349    1971  5  80   0 - 1237063 do_pol 09:19 ?      00:02:32 /usr/bin/gnome-shell
+1 S uk          2433    2326  0  80   0 - 321647 do_pol 09:19 ?       00:00:01 /snap/snapd-desktop-integration/315/usr/bin/snapd-desktop-integration
+0 S uk          2441    2349  0  80   0 - 272948 do_pol 09:19 ?       00:00:01 /usr/libexec/mutter-x11-frames
+0 S uk          2444    1971  0  80   0 - 59013 do_pol 09:19 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+0 S uk          2503    1971  0  80   0 - 200552 do_pol 09:19 ?       00:00:00 /usr/libexec/gnome-shell-calendar-server
+0 S uk          2510    1971  0  80   0 - 189044 do_pol 09:19 ?       00:00:00 /usr/libexec/evolution-source-registry
+0 S uk          2524    1971  0  80   0 - 700589 do_pol 09:19 ?       00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+0 S uk          2539    1971  0  80   0 - 157318 do_pol 09:19 ?       00:00:00 /usr/libexec/goa-daemon
+0 S uk          2542    1971  0  80   0 - 99381 do_pol 09:19 ?        00:00:06 /usr/bin/ibus-daemon --panel disable --xim
+0 S uk          2543    1971  0  80   0 - 98048 do_pol 09:19 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+0 S uk          2546    1971  0  80   0 - 106073 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-color
+0 S uk          2549    1971  0  80   0 - 110085 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-datetime
+0 S uk          2550    1971  0  80   0 - 116884 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-housekeeping
+0 S uk          2552    1971  0  80   0 - 124185 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-keyboard
+0 S uk          2554    1971  0  80   0 - 151370 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-media-keys
+0 S uk          2567    1971  0  80   0 - 133711 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-power
+0 S uk          2568    1971  0  80   0 - 83074 do_pol 09:19 ?        00:00:00 /usr/libexec/gsd-print-notifications
+0 S uk          2570    1971  0  80   0 - 134938 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-rfkill
+0 S uk          2571    1971  0  80   0 - 79557 do_pol 09:19 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+0 S uk          2575    1971  0  80   0 - 137965 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-sharing
+0 S uk          2576    1971  0  80   0 - 98623 do_pol 09:19 ?        00:00:00 /usr/libexec/gsd-smartcard
+0 S uk          2580    1971  0  80   0 - 100577 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-sound
+0 S uk          2581    1971  0  80   0 - 105935 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-wacom
+0 S uk          2584    1971  0  80   0 - 106316 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-xsettings
+0 S uk          2589    1971  0  80   0 - 61252 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfsd-metadata
+0 S uk          2601    2310  0  80   0 - 76373 do_pol 09:19 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+0 S uk          2602    1971  0  80   0 - 99498 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+0 S uk          2606    1971  0  80   0 - 99448 do_pol 09:19 ?        00:00:00 /usr/libexec/goa-identity-service
+0 S uk          2617    2310  0  80   0 - 226001 do_pol 09:19 ?       00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+0 S uk          2734    1971  0  80   0 - 106226 do_pol 09:19 ?       00:00:00 /usr/libexec/gsd-printer
+0 S uk          2760    1971  0  80   0 - 300330 do_pol 09:19 ?       00:00:00 /usr/libexec/evolution-calendar-factory
+0 S uk          2770    2542  0  80   0 - 79784 do_pol 09:19 ?        00:00:00 /usr/libexec/ibus-dconf
+0 S uk          2773    2542  0  80   0 - 89140 do_pol 09:19 ?        00:00:04 /usr/libexec/ibus-extension-gtk3
+0 S uk          2775    1971  0  80   0 - 68986 do_pol 09:19 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+0 S uk          2780    1971  0  80   0 - 79773 do_pol 09:19 ?        00:00:00 /usr/libexec/ibus-portal
+0 S uk          2786    1971  0  80   0 - 79761 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+0 S uk          2804    1971  0  80   0 - 99511 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+0 S uk          2820    1971  0  80   0 - 208528 do_pol 09:19 ?       00:00:00 /usr/libexec/evolution-addressbook-factory
+0 S uk          2821    1971  0  80   0 - 79857 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+0 S uk          2836    1971  0  80   0 - 79615 do_pol 09:19 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+0 S uk          2864    1971  0  80   0 - 684211 do_pol 09:19 ?       00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+0 S uk          2883    2542  0  80   0 - 61359 do_pol 09:19 ?        00:00:01 /usr/libexec/ibus-engine-simple
+0 S uk          2887    1971  0  99   - - 204717 do_pol 09:19 ?       00:00:02 /usr/libexec/tracker-miner-fs-3
+0 S uk          2916    1971  0  80   0 - 57552 do_pol 09:19 ?        00:00:00 /usr/libexec/dconf-service
+0 S uk          2931    2299  0  80   0 - 154527 do_pol 09:19 ?       00:00:00 /usr/libexec/gvfsd-trash --spawner :1.25 /org/gtk/gvfs/exec_spaw/0
+0 S uk          2957    1971  0  80   0 - 177577 do_pol 09:19 ?       00:00:00 /usr/libexec/xdg-desktop-portal
+0 S uk          2962    1971  0  80   0 - 350647 do_pol 09:19 ?       00:00:01 /usr/libexec/xdg-desktop-portal-gnome
+0 S uk          2988    1971  0  80   0 - 106004 do_pol 09:19 ?       00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+0 S uk          3010    2349  0  80   0 - 803667 do_pol 09:19 ?       00:00:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+0 S uk          3615    2310  0  80   0 - 143742 do_pol 09:20 ?       00:00:00 /usr/bin/update-notifier
+0 S uk          3684    1971  0  80   0 - 483037 do_pol 09:23 ?       00:00:25 /usr/bin/nautilus --gapplication-service
+0 S uk          3712    2299  0  80   0 - 99256 do_pol 09:23 ?        00:00:00 /usr/libexec/gvfsd-recent --spawner :1.25 /org/gtk/gvfs/exec_spaw/1
+1 I root        3934       2  0  80   0 -     0 -      09:30 ?        00:00:02 [kworker/6:1-i915-unordered]
+1 I root        3936       2  0  80   0 -     0 -      09:30 ?        00:00:01 [kworker/2:1-mm_percpu_wq]
+1 I root        3939       2  0  80   0 -     0 -      09:30 ?        00:00:04 [kworker/5:1-i915-unordered]
+0 S uk          4069    1971  0  80   0 - 365381916 do_pol 09:32 ?    00:00:19 /snap/code/217/usr/share/code/code --no-sandbox --force-user-env /home/uk/Desktop/LSP/4-1-2026 --ozone-platform=x11
+0 S uk          4071    4069  0  80   0 - 8451389 do_pol 09:32 ?      00:00:00 /snap/code/217/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+0 S uk          4072    4069  0  80   0 - 8451392 do_pol 09:32 ?      00:00:00 /snap/code/217/usr/share/code/code --type=zygote --no-sandbox
+0 S uk          4086    1971  0  80   0 - 8394116 ep_pol 09:32 ?      00:00:00 /snap/code/217/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/uk/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=41f59358-968c-47dd-9058-44e3e9350bba&iid=41f59358-968c-47dd-9058-44e3e9350bba&sid=41f59358-968c-47dd-9058-44e3e9350bba --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.107.1 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=39.2.3 --initial-client-fd=48 --shared-client-connection
+0 S uk          4121    4069  0  80   0 - 8467998 futex_ 09:32 ?      00:00:00 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4086 --enable-crash-reporter=fc63d0a9-3871-4c8e-953d-405a5d4c459b,no_channel --user-data-dir=/home/uk/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11372052873344203268,16563851442597728024,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041
+1 S uk          4180    4072  5  80   0 - 366196624 futex_ 09:32 ?    00:01:58 /snap/code/217/usr/share/code/code --type=zygote --no-sandbox
+0 S uk          4212    4069  1  80   0 - 8496819 do_pol 09:32 ?      00:00:32 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --ozone-platform=x11 --crashpad-handler-pid=4086 --enable-crash-reporter=fc63d0a9-3871-4c8e-953d-405a5d4c459b,no_channel --user-data-dir=/home/uk/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,11372052873344203268,16563851442597728024,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708992871164437
+0 S uk          4238    4069  0  80   0 - 365329048 futex_ 09:32 ?    00:00:04 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4086 --enable-crash-reporter=fc63d0a9-3871-4c8e-953d-405a5d4c459b,no_channel --user-data-dir=/home/uk/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11372052873344203268,16563851442597728024,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708993808206286
+0 S uk          4239    4069  0  80   0 - 365333306 futex_ 09:32 ?    00:00:02 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=4086 --enable-crash-reporter=fc63d0a9-3871-4c8e-953d-405a5d4c459b,no_channel --user-data-dir=/home/uk/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11372052873344203268,16563851442597728024,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135
+0 S uk          4264    4069  0  80   0 - 365333413 futex_ 09:32 ?    00:00:12 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=4086 --enable-crash-reporter=fc63d0a9-3871-4c8e-953d-405a5d4c459b,no_channel --user-data-dir=/home/uk/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11372052873344203268,16563851442597728024,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708995682289984
+0 S uk          4341    4264  0  80   0 - 23765 unix_s 09:33 ?        00:00:14 /home/uk/.vscode/extensions/ms-vscode.cpptools-1.29.3-linux-x64/bin/cpptools
+1 I root        4408       2  0  80   0 -     0 -      09:33 ?        00:00:00 [kworker/0:0-i915-unordered]
+0 S uk          4451    1971  0  80   0 - 1066046 hrtime 09:35 ?      00:00:00 /home/uk/.vscode/extensions/ms-vscode.cpptools-1.29.3-linux-x64/bin/cpptools-srv 4341 {EFCBEFEB-610C-4F15-A023-B8AE07E1BEC5}
+0 S uk          4497    1971  0  80   0 - 213456 do_pol 09:35 ?       00:00:15 /usr/libexec/gnome-terminal-server
+4 S root        4557       1  0  80   0 - 122796 -     09:37 ?        00:00:03 /usr/libexec/fwupd/fwupd
+0 S uk          4800    2349  1  80   0 - 454698 do_pol 09:47 ?       00:00:12 /usr/bin/gnome-text-editor
+1 I root        4846       2  0  80   0 -     0 -      09:47 ?        00:00:00 [kworker/u32:0-events_unbound]
+1 I root        4868       2  0  80   0 -     0 -      09:53 ?        00:00:00 [kworker/u32:1-events_unbound]
+1 I root        4882       2  0  80   0 -     0 -      09:54 ?        00:00:00 [kworker/4:0-events]
+1 I root        4883       2  0  60 -20 -     0 -      09:54 ?        00:00:00 [kworker/u33:2-rb_allocator]
+1 I root        4891       2  0  80   0 -     0 -      09:55 ?        00:00:00 [kworker/7:2-events]
+1 I root        4914       2  0  80   0 -     0 -      09:58 ?        00:00:00 [kworker/3:1-events]
+1 I root        4917       2  0  80   0 -     0 -      09:58 ?        00:00:00 [kworker/5:2-i915-unordered]
+1 I root        4919       2  0  80   0 -     0 -      09:59 ?        00:00:00 [kworker/u32:2-events_unbound]
+1 I root        4920       2  0  80   0 -     0 -      09:59 ?        00:00:00 [kworker/1:1-events]
+1 I root        4923       2  0  80   0 -     0 -      10:01 ?        00:00:00 [kworker/7:1-events_freezable]
+1 I root        4924       2  0  80   0 -     0 -      10:01 ?        00:00:00 [kworker/2:2-events]
+1 I root        4928       2  0  80   0 -     0 -      10:02 ?        00:00:00 [kworker/6:2]
+0 S uk          4935    4497  0  80   0 -  4922 do_sel 10:02 pts/1    00:00:00 bash
+1 I root        4956       2  0  80   0 -     0 -      10:03 ?        00:00:00 [kworker/5:0-i915-unordered]
+0 S uk          4959    4497  0  80   0 -  4922 do_wai 10:03 pts/0    00:00:00 bash
+1 I root        4967       2  0  60 -20 -     0 -      10:04 ?        00:00:00 [kworker/u33:1]
+1 I root        4969       2  0  80   0 -     0 -      10:04 ?        00:00:00 [kworker/0:1-i915-unordered]
+1 I root        4999       2  0  80   0 -     0 -      10:05 ?        00:00:00 [kworker/3:2]
+1 I root        5000       2  0  80   0 -     0 -      10:05 ?        00:00:00 [kworker/u32:3-events_unbound]
+1 I root        5002       2  0  80   0 -     0 -      10:07 ?        00:00:00 [kworker/2:0-events]
+0 R uk          5003    4959 99  80   0 -  5616 -      10:07 pts/0    00:00:00 ps -elf
